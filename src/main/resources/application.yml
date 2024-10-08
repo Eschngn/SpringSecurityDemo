@@ -1,0 +1,18 @@
+server:
+  port: 8088
+spring:
+  security:
+    user:
+      name: xiaocheng
+      password: 123456
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 1234
+
+jwt:
+  # 签发人
+  issuer: wilson
+  # 秘钥
+  secret: AH7F2O0tTWy2wMP56lxRUUjiF7znbrpyGT02o5cHJa5DoB+PY48puX9pXDqDh7fb2D0YPKZgIoanIy9cav00Rw==
